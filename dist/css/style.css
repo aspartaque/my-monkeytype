@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+  font-family: Lexend Deca;
+  font-style: normal;
+  max-width: 1000px;
+  width: 100%;
+  height: inherit;
+  margin: 0 auto;
+  background-color: #242933;
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.m-logo {
+  width: 100%;
+  fill: #ec4c56;
+}
+
+.m-logo__wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 30px;
+}
+
+.logo-icon svg {
+  height: 100%;
+}
+
+.logo-name {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+main { 
+  margin-top: 100px;
+}
+
+.m-words {
+  margin-bottom: 50px;
+  color: rgb(94, 94, 94);
+  font-size: 40px;
+  word-break: break-all;
+  display: flex;
+}
+
+.m-input input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+}
+
+.m-input input:focus-visible {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: none;
+}

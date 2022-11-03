@@ -51,11 +51,11 @@ main {
 }
 
 .m-words {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: rgb(94, 94, 94);
   font-size: 40px;
   word-break: break-all;
-  display: flex;
+  display: block;
 }
 
 .m-input input {
@@ -71,4 +71,20 @@ main {
   border-bottom: 1px solid #000;
   background-color: transparent;
   outline: none;
+}
+
+.correct {
+  color: #fff;
+}
+.fail {
+  color: red;
+}
+.m-panel {
+  display: flex;
+  justify-content: space-between;
+}
+.m-wpm {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
